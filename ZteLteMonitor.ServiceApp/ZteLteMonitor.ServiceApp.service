@@ -1,0 +1,10 @@
+[Unit]
+Description=Zte Lte Monitor
+
+[Service]
+Type=notify
+ExecStart=/usr/sbin/ZteLteMonitor/ZteLteMonitor.ServiceApp
+WorkingDirectory=/usr/sbin/ZteLteMonitor
+
+[Install]
+WantedBy=multi-user.target

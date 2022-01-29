@@ -1,0 +1,8 @@
+sudo mkdir /usr/sbin/ZteLteMonitor/
+sudo cp * /usr/sbin/ZteLteMonitor/
+sudo chmod o+rx /usr/sbin/ZteLteMonitor/ZteLteMonitor.ServiceApp
+sudo mv /usr/sbin/ZteLteMonitor/ZteLteMonitor.ServiceApp.service /etc/systemd/system/ZteLteMonitor.ServiceApp.service
+sudo systemctl daemon-reload
+sudo systemctl enable ZteLteMonitor.ServiceApp
+sudo systemctl start ZteLteMonitor.ServiceApp
+

@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E2A376E6-41CF-4A73-8245-DE42655753EC}"
+	ProjectSection(SolutionItems) = preProject
+		connected.json = connected.json
+		connected_cookieless.json = connected_cookieless.json
+		disconnected.json = disconnected.json
+		disconnected_cookieless.json = disconnected_cookieless.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZteLteMonitor.Droid", "ZteLteMonitor.Droid\ZteLteMonitor.Droid.csproj", "{984A033F-6FC3-4F2A-A7FF-D31A14C83321}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZteLteMonitor.Core", "ZteLteMonitor.Core\ZteLteMonitor.Core.csproj", "{56D0D455-8178-4A36-9611-B01ADB3CE22D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZteLteMonitor.ServiceApp", "ZteLteMonitor.ServiceApp\ZteLteMonitor.ServiceApp.csproj", "{1A21EAEA-3FE4-4CD3-8E94-C6460001A464}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{984A033F-6FC3-4F2A-A7FF-D31A14C83321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984A033F-6FC3-4F2A-A7FF-D31A14C83321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984A033F-6FC3-4F2A-A7FF-D31A14C83321}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{984A033F-6FC3-4F2A-A7FF-D31A14C83321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984A033F-6FC3-4F2A-A7FF-D31A14C83321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{984A033F-6FC3-4F2A-A7FF-D31A14C83321}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{56D0D455-8178-4A36-9611-B01ADB3CE22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D0D455-8178-4A36-9611-B01ADB3CE22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D0D455-8178-4A36-9611-B01ADB3CE22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D0D455-8178-4A36-9611-B01ADB3CE22D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A21EAEA-3FE4-4CD3-8E94-C6460001A464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A21EAEA-3FE4-4CD3-8E94-C6460001A464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A21EAEA-3FE4-4CD3-8E94-C6460001A464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A21EAEA-3FE4-4CD3-8E94-C6460001A464}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39EAEC23-43C0-4598-A27D-9902C8D2F070}
+	EndGlobalSection
+EndGlobal

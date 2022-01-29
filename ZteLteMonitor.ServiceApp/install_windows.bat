@@ -1,0 +1,1 @@
+srvman.exe add "ZteLteMonitor.ServiceApp.exe" "Zte Lte Monitor" "Zte Lte Monitor" /start:auto && srvman.exe start "Zte Lte Monitor"

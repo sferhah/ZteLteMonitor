@@ -1,0 +1,1 @@
+srvman.exe stop "Zte Lte Monitor" && srvman.exe delete "Zte Lte Monitor"

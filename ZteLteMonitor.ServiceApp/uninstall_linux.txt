@@ -1,0 +1,6 @@
+sudo systemctl stop ZteLteMonitor.ServiceApp
+sudo systemctl disable ZteLteMonitor.ServiceApp
+sudo rm /etc/systemd/system/ZteLteMonitor.ServiceApp.service
+sudo rm -r /usr/sbin/ZteLteMonitor/
+sudo systemctl daemon-reload
+sudo systemctl reset-failed
