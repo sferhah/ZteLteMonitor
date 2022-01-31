@@ -8,3 +8,8 @@ The android code is an artefact of my initial attempt to use an Android Tv in or
 Customize the service behaviour via appsettings.json (Ip address, password...etc.)
 
 - See also: https://github.com/cosote/R216-Z
+
+Downloads:
+- <a href="https://github.com/sferhah/ZteLteMonitor/releases/download/v1/linux-x64.zip">linux-x64.zip</a> (Unzip and use bash install_linux.txt)
+- <a href="https://github.com/sferhah/ZteLteMonitor/releases/download/v1/win-x64.zip">win-x64.zip</a> (Unzip and click on install_windows.bat)
+
